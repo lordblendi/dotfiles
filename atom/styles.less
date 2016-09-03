@@ -1,0 +1,121 @@
+/*
+ * Your Stylesheet
+ *
+ * This stylesheet is loaded when Atom starts up and is reloaded automatically
+ * when it is changed and saved.
+ *
+ * Add your own CSS or Less to fully customize Atom.
+ * If you are unfamiliar with Less, you can read more about it here:
+ * http://lesscss.org
+ */
+/*
+ * Examples
+ * (To see them, uncomment and save)
+ */
+/*
+// EDITOR
+*/
+atom-text-editor::shadow .cursor {
+    border-color: red;
+}
+// red color for cursor
+
+atom-text-editor::shadow .highlight {
+    color: red;
+
+    &.current-result .region,
+    &.current-result ~ .highlight.selection .region,
+    &.find-result .region {
+        z-index: -1;
+    }
+
+    &.find-result .region {
+        background: rgba(255,0,255,.2);
+    }
+
+    &.current-result .region,
+    &.current-result ~ .highlight.selection .region {
+        background9: rgba(0,255,255,.2);
+    }
+}
+// better highlighting for searching
+// purple-ish color for results
+// blue color for chosen result
+
+.line-number {
+    color: white;
+}
+// white color for line numbers
+/*
+// MARKDOWN
+*/
+:host .gfm .link,
+atom-text-editor .gfm .link {
+    color: yellow;
+}
+// yellow color for urls
+
+span.source.gfm {
+    color: #e0e0e0;
+}
+// white-ish color for text
+
+span.markup.heading.gfm {
+    color: #009990;
+}
+// turquoise-ish color for headings
+
+span.variable.unordered.list.gfm {
+    color: #00FF00;
+}
+// green color for listing
+/*
+// RUBY
+*/
+span.constant.other.symbol.ruby {
+    span.punctuation.definition.constant.ruby {
+        color: #FFCC00;
+    }
+    color: #FFCC00;
+}
+// orange color for urls
+/*
+// JSON
+*/
+span.markup.underline.link.http.hyperlink {
+    color: #FF9900;
+}
+// orange color for urls
+
+span {
+    &.string {
+        color: #FF00;
+    }
+
+    &.punctuation {
+        &.separator.dictionary.key-value.json {
+            color: orange;
+        }
+
+        &.definition.json {
+            &.dictionary {
+                color: orange;
+            }
+
+            &.array {
+                color: orange;
+            }
+        }
+    }
+}
+// orange color for {} [] :
+
+span.meta.tag.block.close.htmlbars {
+    font-size: inherit;
+    line-height: inherit;
+    font-weight: inherit;
+    float: inherit;
+    opacity: inherit;
+    text-shadow: inherit;
+}
+// handlebar text fix

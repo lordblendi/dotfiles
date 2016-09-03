@@ -1,0 +1,104 @@
+"*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "98f6a8de-26b8-4d48-a3d0-b538adb773a8"
+  autosave:
+    enabled: true
+  core:
+    audioBeep: false
+    disabledPackages: [
+      "file-icon-supplement"
+      "bookmarks"
+      "deprecation-cop"
+      "image-view"
+      "keybinding-resolver"
+      "welcome"
+      "update-package-dependencies"
+      "timecop"
+      "package-generator"
+      "metrics"
+      "language-csharp"
+      "language-clojure"
+      "language-go"
+      "language-make"
+      "language-mustache"
+      "language-objective-c"
+      "language-property-list"
+      "language-toml"
+      "language-c"
+      "language-perl"
+      "language-php"
+      "language-ruby-on-rails"
+      "about"
+      "autoflow"
+      "command-palette"
+      "encoding-selector"
+      "exception-reporting"
+      "language-source"
+      "language-yaml"
+      "snippets"
+      "styleguide"
+    ]
+    openEmptyEditorOnStart: false
+    packagesWithKeymapsDisabled: [
+      "preview"
+      "image-view"
+    ]
+    projectHome: "/home/nora/Projects"
+    themes: [
+      "one-dark-ui"
+      "atom-dark-syntax"
+    ]
+  editor:
+    autoIndentOnPaste: false
+    backUpBeforeSaving: true
+    fontSize: 13
+    showIndentGuide: true
+    showInvisibles: true
+    softWrap: true
+    useShadowDOM: false
+  "ember-tabs":
+    overrideUsePods: true
+  "exception-reporting":
+    userId: "b5a0e3c3-61c1-0597-cbc7-fb0b18c9e16f"
+  "file-icon-supplement":
+    treeViewIcons: false
+  "file-icons":
+    forceShow: true
+  "git-diff": {}
+  "markdown-preview": {}
+  "package-generator":
+    packageSyntax: "coffeescript"
+  preview:
+    _analyticsUserId: "0a37a152-0139-451a-8fd9-e0acc8dd86ec"
+  tabs:
+    addNewTabsAtEnd: true
+    enableVcsColoring: true
+  welcome:
+    showOnStartup: false
+  wordcount:
+    alwaysOn: true
+".coffee.source":
+  editor:
+    autoIndentOnPaste: false
+".console.python.text":
+  editor:
+    autoIndentOnPaste: false
+".html.htmlbars.internal.subexp.text":
+  editor:
+    softWrap: true
+".js.source":
+  editor:
+    autoIndentOnPaste: false
+".python.source":
+  editor:
+    autoIndentOnPaste: false
+".python.text.traceback":
+  editor:
+    autoIndentOnPaste: false
+".sass.source":
+  editor:
+    autoIndentOnPaste: false
+".text.xml":
+  editor:
+    autoIndentOnPaste: false
