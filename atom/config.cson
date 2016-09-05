@@ -52,7 +52,7 @@
   editor:
     autoIndentOnPaste: false
     backUpBeforeSaving: true
-    fontSize: 15
+    fontSize: 12
     showIndentGuide: true
     showInvisibles: true
     softWrap: true
