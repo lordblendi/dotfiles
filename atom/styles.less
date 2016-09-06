@@ -86,7 +86,7 @@ span.constant.other.symbol.ruby {
 // JSON
 */
 span.markup.underline.link.http.hyperlink {
-    color: #FF9900;
+    color: yellow;
 }
 // orange color for urls
 
@@ -96,15 +96,24 @@ span.punctuation.definition.array.begin.json {
 
 span {
     &.string {
-        color: #FF00;
+        color: lemonchiffon;
     }
 
-    &.punctuation {
-        &.separator.dictionary.key-value.json {
-            color: orange;
+    &.punctuation.json {
+        &.separator.dictionary {
+            &.key-value {
+                color: orange;
+            }
+
+            &.pair {
+                color: orange;
+            }
+        }
+        &.separator.array {
+                color: orange;
         }
 
-        &.definition.json {
+        &.definition {
             &.dictionary {
                 color: orange;
             }
