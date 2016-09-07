@@ -57,9 +57,9 @@ if [ -n "$force_color_prompt" ]; then
 fi
 
 if [ "$color_prompt" = yes ]; then
-    PS1='\[$(tput bold)\]\[$(tput setaf 3)\][\t \u: \W]\$ \[$(tput sgr0)\]'
+    PS1='\[$(tput bold)\]\[$(tput setaf 3)\][\u: \W]\$ \[$(tput sgr0)\]'
 else
-    PS1='\[$(tput bold)\][\t \u: \W]\$ \[$(tput sgr0)\]'
+    PS1='\[$(tput bold)\][\u: \W]\$ \[$(tput sgr0)\]'
 fi
 unset color_prompt force_color_prompt
 
