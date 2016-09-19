@@ -1,16 +1,23 @@
-atom-beautify@0.29.11
-atom-ember-author-kit@0.8.0
+atom-beautify@0.29.12
+atom-ember-author-kit@0.8.1
+atom-language-latex@0.1.1
 atom-material-syntax-dark@0.2.5
 autocomplete@0.47.0
 double-tag@0.4.0
-ember-tabs@2.2.2
 emmet@2.4.3
 file-icons@1.7.19
 javascript-snippets@1.2.1
+language-common-lisp@0.9.4
+language-fish-shell@1.0.5
 language-rdf@0.3.1
+language-scala@1.1.6
 language-sparql@0.3.0
+latex@0.36.0
+latex-autocomplete@0.5.3
+latex-hyperclick@0.1.1
+linter-spell-latex@0.9.0
 preview@0.16.9
-python-indent@0.4.3
+python-indent@1.0.0
 rubocop-auto-correct@1.5.1
 wordcount@2.6.2
 

@@ -34,9 +34,6 @@
       "command-palette"
       "encoding-selector"
       "exception-reporting"
-      "language-source"
-      "language-yaml"
-      "snippets"
       "styleguide"
     ]
     openEmptyEditorOnStart: false
@@ -52,7 +49,7 @@
   editor:
     autoIndentOnPaste: false
     backUpBeforeSaving: true
-    fontSize: 12
+    fontSize: 10
     showIndentGuide: true
     showInvisibles: true
     softWrap: true

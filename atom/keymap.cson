@@ -41,6 +41,14 @@
 '.platform-linux':
     'ctrl-t': 'unset!'
 
+'atom-text-editor':
+  'ctrl-alt-b': 'unset!'
+'atom-text-editor':
+  'ctrl-alt-b': 'unset!'
+
+'atom-text-editor':
+  'ctrl-shift-alt-B': 'latex:build'
+
 'atom-workspace atom-text-editor:not([mini])':
     'ctrl-shift-D': 'unset!'
 
