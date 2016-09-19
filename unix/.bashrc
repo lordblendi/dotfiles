@@ -117,7 +117,7 @@ if ! shopt -oq posix; then
 fi
 export CATALINA_HOME=/home/nora/tomcat7
 export PATH=$HOME/local/bin:$PATH
-export PATH=$HOME/local/bin:$PATH
+export PATH=$HOME/.local/bin:$PATH
 
 
 export NVM_DIR="/home/nora/.nvm"
