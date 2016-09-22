@@ -34,6 +34,14 @@
 #disable things
 'body .native-key-bindings':
     'ctrl-d': 'unset!'
+    'alt-left': 'unset!'
+    'alt-right': 'unset!'
+    'alt-up': 'unset!'
+    'alt-down': 'unset!'
+    'alt-shift-left': 'unset!'
+    'alt-shift-right': 'unset!'
+    'alt-shift-up': 'unset!'
+    'alt-shift-down': 'unset!'
 
 '.platform-win32 atom-text-editor, .platform-linux atom-text-editor':
     'ctrl-d': 'unset!'
@@ -42,31 +50,64 @@
     'ctrl-t': 'unset!'
 
 'atom-text-editor':
-  'ctrl-alt-b': 'unset!'
-'atom-text-editor':
-  'ctrl-alt-b': 'unset!'
-
-'atom-text-editor':
-  'ctrl-shift-alt-B': 'latex:build'
+    'ctrl-alt-b': 'unset!'
+    'ctrl-alt-b': 'unset!'
+    'ctrl-shift-alt-B': 'latex:build'
+    'ctrl-shift-s': 'atom-beautify:beautify-editor'
 
 'atom-workspace atom-text-editor:not([mini])':
     'ctrl-shift-D': 'unset!'
-
-'atom-workspace atom-text-editor:not([mini])':
     'ctrl-d': 'editor:duplicate-lines'
-    # 'ctrl-shift-D': 'editor:delete-line'
     'ctrl-shift-d': 'editor:delete-line'
-
-'atom-text-editor':
-    'ctrl-shift-s': 'atom-beautify:beautify-editor'
-
-'body atom-workspace atom-text-editor:not([mini]) atom-text-editor':
-    'ctrl-t': 'application:new-file'
+    'alt-left': 'unset!'
+    'alt-right': 'unset!'
+    'alt-up': 'unset!'
+    'alt-down': 'unset!'
+    'alt-shift-left': 'unset!'
+    'alt-shift-right': 'unset!'
+    'alt-shift-up': 'unset!'
+    'alt-shift-down': 'unset!'
+    'ctrl-shift-enter': 'unset!'
 
 '.platform-linux':
     'shift shift': 'fuzzy-finder:toggle-file-finder'
     'shift tab tab': 'fuzzy-finder:toggle-file-finder'
 
+'atom-text-editor:not([mini])':
+    'alt-left': 'unset!'
+    'alt-right': 'unset!'
+    'alt-up': 'unset!'
+    'alt-down': 'unset!'
+    'alt-shift-left': 'unset!'
+    'alt-shift-right': 'unset!'
+    'alt-shift-up': 'unset!'
+    'alt-shift-down': 'unset!'
+
+'atom-workspace atom-text-editor':
+    'alt-left': 'unset!'
+    'alt-right': 'unset!'
+    'alt-up': 'unset!'
+    'alt-down': 'unset!'
+    'alt-shift-left': 'unset!'
+    'alt-shift-right': 'unset!'
+    'alt-shift-up': 'unset!'
+    'alt-shift-down': 'unset!'
+
+'.tree-view':
+    'alt-left': 'unset!'
+    'alt-right': 'unset!'
+    'alt-up': 'unset!'
+    'alt-down': 'unset!'
+
 'body':
-    'ctrl-shift-tab': 'pane:show-previous-item'
     'ctrl-tab': 'pane:show-next-item'
+    'ctrl-shift-tab': 'pane:show-previous-item'
+    'ctrl-q': 'unset!'
+    'alt-down': 'window:focus-pane-below'
+    'alt-right': 'window:focus-pane-on-right'
+    'alt-up': 'window:focus-pane-above'
+    'alt-left': 'window:focus-pane-on-left'
+    'alt-shift-down': 'pane:split-down-and-copy-active-item'
+    'alt-shift-left': 'pane:split-left-and-copy-active-item'
+    'alt-shift-up': 'pane:split-up-and-copy-active-item'
+    'alt-shift-right': 'pane:split-right-and-copy-active-item'
