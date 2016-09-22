@@ -1,4 +1,4 @@
-c# tmux shortcuts & cheatsheet
+# tmux shortcuts & cheatsheet
 
 start new:
 
@@ -162,25 +162,3 @@ For example, we can use "w" to jump to the next word and "b" to jump back one wo
     unbind Up bind Up new-window -d -n tmp \; swap-pane -s tmp.1 \; select-window -t tmp
     unbind Down
     bind Down last-window \; swap-pane -s tmp.1 \; kill-window -t tmp
-
-## Resources:
-
-* [tmux: Productive Mouse-Free Development](http://pragprog.com/book/bhtmux/tmux)
-* [How to reorder windows](http://superuser.com/questions/343572/tmux-how-do-i-reorder-my-windows)
-
-## Notes:
-
-*
-
-## Changelog:
-
-* 1411143833002 - Added [toggle zoom](#PanesSplits) under Panes (splits) section.
-* 1411143833002 - [Added Sync Panes](#syncPanes)
-* 1414276652677 - [Added Kill all tmux sessions ](#killAllSessions)
-* 1438585211173 - [corrected create and add next and previus thanks to @justinjhendrick](#WindowsTabs)
-
-## Request an Update:
-
-We Noticed that our Cheatsheet is growing and people are coloberating to add new tips and tricks, so please tweet to me what would you like to add and let's make it better!
-
-* Twitter: [@MohammedAlaa](http://twitter.com/MohammedAlaa)

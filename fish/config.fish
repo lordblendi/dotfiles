@@ -6,13 +6,15 @@ white)'@'(set_color yellow)(hostname)' '
     test $USER = 'root'; and echo (set_color red)"#"
 
     # Main
-	echo -n (set_color cyan)\[(set_color yellow)nora: (set_color red)(prompt_pwd)(set_color cyan)\]\$' '
+	echo -n (set_color 00FFFF)\[(set_color FFFF00)$USER: (set_color FF0000)(prompt_pwd)(set_color 00FFFF)\]\$' '
 end
 
 
 alias cd..='cd ..'
 alias b='bash '
 alias lsal='ls -alh'
+alias l='ls -alh'
+alias t='tmux'
 
 # git
 alias g='git'
@@ -33,5 +35,5 @@ alias es='ember serve'
 alias ed='ember destroy'
 
 # dockers
-alias dr docker
-alias drc docker-compose
+alias dr='docker'
+alias drc='docker-compose'
