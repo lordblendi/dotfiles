@@ -32,6 +32,7 @@ alias gstl='git stash list'
 alias gst='git stash'
 alias gsta='git stash apply'
 alias gstd='git stash drop'
+alias gk='gitk --all'
 
 # ember
 alias e='ember'
