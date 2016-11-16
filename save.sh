@@ -37,6 +37,8 @@ apm list --installed --bare > atom/package-list.txt
 ###
 echo "Saving basic unix dotifles"
 symlink unix
+new_dir bin
+cp -r -u ~/bin .
 
 ###
 # Fish settings
