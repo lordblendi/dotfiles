@@ -1,20 +1,11 @@
-# PS1-like thingy
-# function fish_prompt
-# 	test $SSH_TTY; and printf (set_color red)(whoami)(set_color
-# white)'@'(set_color yellow)(hostname)' '
-#
-#     test $USER = 'root'; and echo (set_color red)"#"
-#
-#     # Main
-# 	echo -n (set_color 00FF00)\[(set_color FFFF00)$USER: (set_color FF0000)(prompt_pwd)(set_color 00FF00)\]\$' '
-# end
-
-
+# basic
 alias cd..='cd ..'
 alias b='bash '
 alias lsal='ls -alh'
 alias l='ls -alh'
 alias t='tmux'
+alias a='atom'
+alias n='nano'
 
 # git
 alias g='git'
@@ -27,7 +18,10 @@ alias gd='git diff'
 alias gpl='git pull'
 alias gps='git push'
 alias grb='git rebase'
-alias gch='git checkout'
+alias gc='git checkout'
+alias gr='git reset'
+
+# git stash
 alias gstl='git stash list'
 alias gst='git stash'
 alias gsta='git stash apply'
@@ -39,6 +33,8 @@ alias e='ember'
 alias eg='ember generate'
 alias es='ember serve'
 alias ed='ember destroy'
+alias eb='ember build'
+alias ebp='ember build --prod'
 
 # dockers
 alias dr='docker'
