@@ -6,6 +6,8 @@ alias l='ls -alh'
 alias t='tmux'
 alias a='atom'
 alias n='nano'
+alias c='cat'
+alias le='less'
 
 # git
 alias g='git'
