@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Franz
+Icon=/home/nora/Franz/resources/app.asar.unpacked/assets/franz.png
+Exec="/home/nora/Franz/Franz" %f
+Comment=One chat service, unlimited accounts!
+Categories=Web
+Terminal=false
+Name[en_US]=Franz.desktop
