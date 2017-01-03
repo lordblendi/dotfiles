@@ -2,6 +2,10 @@
   "atom-beautify":
     general:
       _analyticsUserId: "98f6a8de-26b8-4d48-a3d0-b538adb773a8"
+  "atom-clock":
+    dateFormat: "YYYY. MMM. DD., ddd, HH:mm:ss"
+    refreshInterval: 1
+    showClockIcon: true
   autosave:
     enabled: true
   core:
@@ -49,7 +53,7 @@
   editor:
     autoIndentOnPaste: false
     backUpBeforeSaving: true
-    fontSize: 13
+    fontSize: 12
     showIndentGuide: true
     showInvisibles: true
     softWrap: true
@@ -68,9 +72,13 @@
     packageSyntax: "coffeescript"
   preview:
     _analyticsUserId: "0a37a152-0139-451a-8fd9-e0acc8dd86ec"
+  "ruby-block":
+    highlightLineNumber: true
   tabs:
     addNewTabsAtEnd: true
     enableVcsColoring: true
+  "tree-view":
+    hideVcsIgnoredFiles: true
   welcome:
     showOnStartup: false
   wordcount:
