@@ -53,7 +53,6 @@
   editor:
     autoIndentOnPaste: false
     backUpBeforeSaving: true
-    fontSize: 12
     showIndentGuide: true
     showInvisibles: true
     softWrap: true
@@ -78,7 +77,8 @@
     addNewTabsAtEnd: true
     enableVcsColoring: true
   "tree-view":
-    hideVcsIgnoredFiles: true
+    focusOnReveal: false
+    hideIgnoredNames: true
   welcome:
     showOnStartup: false
   wordcount:

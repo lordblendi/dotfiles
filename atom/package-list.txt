@@ -2,10 +2,10 @@ atom-beautify@0.29.16
 atom-clock@0.1.2
 atom-ember-author-kit@0.8.3
 atom-language-latex@0.1.2
-atom-material-syntax-dark@0.2.5
+atom-material-syntax-dark@0.2.6
 autocomplete@0.47.0
 autocomplete-modules@1.6.7
-autocomplete-python@1.8.25
+autocomplete-python@1.8.26
 autocomplete-sass@0.1.0
 autocomplete-xml@0.9.4
 double-tag@0.4.0
