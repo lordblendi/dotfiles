@@ -48,12 +48,17 @@
 
 '.platform-linux':
     'ctrl-t': 'unset!'
+    'shift tab tab': 'fuzzy-finder:toggle-file-finder'
 
 'atom-text-editor':
     'ctrl-alt-b': 'unset!'
     'ctrl-alt-b': 'unset!'
     'ctrl-shift-alt-B': 'latex:build'
     'ctrl-shift-s': 'atom-beautify:beautify-editor'
+    'alt-s': 'select-rectangle:select'
+    'alt-shift-s': 'select-rectangle:select'
+    'alt-shift-c': 'select-rectangle:clear'
+
 
 'atom-workspace atom-text-editor:not([mini])':
     'ctrl-shift-D': 'unset!'
@@ -68,10 +73,6 @@
     'alt-shift-up': 'unset!'
     'alt-shift-down': 'unset!'
     'ctrl-shift-enter': 'unset!'
-
-'.platform-linux':
-    'shift shift': 'fuzzy-finder:toggle-file-finder'
-    'shift tab tab': 'fuzzy-finder:toggle-file-finder'
 
 'atom-text-editor:not([mini])':
     'alt-left': 'unset!'
