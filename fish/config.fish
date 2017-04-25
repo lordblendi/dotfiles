@@ -44,3 +44,5 @@ alias ebp='ember build --prod'
 # dockers
 alias dr='docker'
 alias drc='docker-compose'
+
+test -s /home/nora/.nvm-fish/nvm.fish; and source /home/nora/.nvm-fish/nvm.fish
