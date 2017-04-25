@@ -1,3 +1,4 @@
 .bash_aliases
 .bashrc
 .tmux.conf
+.nanorc
