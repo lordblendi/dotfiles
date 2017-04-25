@@ -39,6 +39,17 @@
       "encoding-selector"
       "exception-reporting"
       "styleguide"
+      "autocomplete-elixir"
+    ]
+    excludeVcsIgnoredPaths: false
+    followSymlinks: false
+    ignoredNames: [
+      "node_modules"
+      "tmp"
+      "bower_components"
+      "tests"
+      "dist"
+      ".git"
     ]
     openEmptyEditorOnStart: false
     packagesWithKeymapsDisabled: [
@@ -53,7 +64,6 @@
   editor:
     autoIndentOnPaste: false
     backUpBeforeSaving: true
-    fontSize: 13
     showIndentGuide: true
     showInvisibles: true
     softWrap: true
@@ -66,6 +76,16 @@
     treeViewIcons: false
   "file-icons":
     forceShow: true
+  "find-and-replace":
+    openProjectFindResultsInRightPane: true
+  "fuzzy-finder":
+    ignoredNames: [
+      "node_modules"
+      "tmp"
+      "bower_components"
+      "tests"
+      "dist"
+    ]
   "git-diff": {}
   "markdown-preview": {}
   "package-generator":
@@ -80,6 +100,7 @@
   "tree-view":
     focusOnReveal: false
     hideIgnoredNames: true
+    hideVcsIgnoredFiles: true
   welcome:
     showOnStartup: false
   wordcount:
