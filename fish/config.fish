@@ -44,5 +44,6 @@ alias ebp='ember build --prod'
 # dockers
 alias dr='docker'
 alias drc='docker-compose'
+alias dr-rmi-none='dr rmi -f (dr images | grep "^<none>" | awk \'{print $3}\')'
 
 test -s /home/nora/.nvm-fish/nvm.fish; and source /home/nora/.nvm-fish/nvm.fish
