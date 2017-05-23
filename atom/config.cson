@@ -51,7 +51,6 @@
       "dist"
       ".git"
     ]
-    openEmptyEditorOnStart: false
     packagesWithKeymapsDisabled: [
       "preview"
       "image-view"
@@ -77,7 +76,7 @@
   "file-icons":
     forceShow: true
   "find-and-replace":
-    openProjectFindResultsInRightPane: true
+    projectSearchResultsPaneSplitDirection: "right"
   "fuzzy-finder":
     ignoredNames: [
       "node_modules"
