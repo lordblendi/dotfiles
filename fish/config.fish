@@ -45,5 +45,6 @@ alias ebp='ember build --prod'
 alias dr='docker'
 alias drc='docker-compose'
 alias dr-rmi-none='dr rmi -f (dr images | grep "^<none>" | awk \'{print $3}\')'
+alias dr-rm-volumes-dangling='eval \'docker volume rm (docker volume ls -f dangling=true -q)\' '
 
 test -s /home/nora/.nvm-fish/nvm.fish; and source /home/nora/.nvm-fish/nvm.fish

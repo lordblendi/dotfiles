@@ -99,7 +99,6 @@
   "tree-view":
     focusOnReveal: false
     hideIgnoredNames: true
-    hideVcsIgnoredFiles: true
   welcome:
     showOnStartup: false
   wordcount:
