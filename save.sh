@@ -1,3 +1,5 @@
+#!/bin/bash
+
 dir=~/dotfiles/.                       # dotfiles directory
 dir_backup=~/dotfiles_old             # old dotfiles backup directory
 
