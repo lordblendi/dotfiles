@@ -29,17 +29,14 @@
       "language-objective-c"
       "language-property-list"
       "language-toml"
-      "language-c"
       "language-perl"
       "language-php"
       "language-ruby-on-rails"
       "about"
       "autoflow"
       "command-palette"
-      "encoding-selector"
       "exception-reporting"
       "styleguide"
-      "autocomplete-elixir"
     ]
     excludeVcsIgnoredPaths: false
     followSymlinks: false
@@ -99,6 +96,7 @@
   "tree-view":
     focusOnReveal: false
     hideIgnoredNames: true
+    hideVcsIgnoredFiles: true
   welcome:
     showOnStartup: false
   wordcount:

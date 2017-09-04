@@ -8,6 +8,7 @@ alias a='atom'
 alias n='nano'
 alias c='cat'
 alias le='less'
+alias ti='tig'
 
 # git
 alias g='git'
@@ -22,22 +23,23 @@ alias gpl='git pull'
 alias gpl-o='git pull origin'
 alias gps='git push'
 alias gps-o='git push origin'
-alias grb='git rebase'
 alias gc='git checkout'
-alias gr='git reset'
+alias gr='git rebase'
+alias gk='gitk --all'
 
 # git stash
 alias gstl='git stash list'
 alias gst='git stash'
 alias gsta='git stash apply'
 alias gstd='git stash drop'
-alias gk='gitk --all'
+alias gstp='git stash pop'
 
 # ember
 alias e='ember'
 alias eg='ember generate'
 alias es='ember serve'
 alias ed='ember destroy'
+alias ei='ember install'
 alias eb='ember build'
 alias ebp='ember build --prod'
 
