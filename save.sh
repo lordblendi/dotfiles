@@ -75,3 +75,10 @@ symlink fish .config/fish
 
 echo "Saving Visual Code settings"
 symlink code .config/Code/User
+
+###
+# Visual Code settings
+###
+
+echo "Saving Visual Code settings"
+symlink franz .config/Franz/settings
