@@ -1,0 +1,35 @@
+{
+    "workbench.colorTheme": "Red",
+    "editor.tabSize": 2,
+    "files.autoSave": "onFocusChange",
+    "editor.wordWrap": "on",
+    "files.insertFinalNewline": true,
+    "html.format.indentHandlebars": true,
+    "html.format.indentInnerHtml": true,
+    "html.format.endWithNewline": true,
+    "html.format.extraLiners": "head, body, /html, div",
+    "dateTime.customFormat": "YYYY. MMM. DD., dddd, HH:MM:ss",
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.minimap.enabled": false,
+    "beautify.tabSize": 2,
+    "beautify.options": {
+        "indent_size": 1,
+        "indent_with_tabs": false,
+        "css": {
+            "indent_size": 1
+        },
+        "scss": {
+            "indent_size": 1
+        }
+    },
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/tmp": true,
+        "**/dist": true
+    },
+    "workbench.colorCustomizations": {
+        "editorCursor.foreground": "#FFFF00",
+        "editorLineNumber.foreground": "#dddd00"
+    }
+}

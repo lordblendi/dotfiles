@@ -68,3 +68,10 @@ cp -r -u ~/bin .
 
 echo "Saving Fish settings"
 symlink fish .config/fish
+
+###
+# Visual Code settings
+###
+
+echo "Saving Visual Code settings"
+symlink code .config/Code/User
