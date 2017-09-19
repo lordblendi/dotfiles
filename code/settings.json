@@ -30,6 +30,17 @@
     },
     "workbench.colorCustomizations": {
         "editorCursor.foreground": "#FFFF00",
-        "editorLineNumber.foreground": "#dddd00"
-    }
+        "editorLineNumber.foreground": "#dddd00",
+        "editor.selectionBackground": "#d05b0a"
+    },
+    "workbench.iconTheme": "vscode-icons",
+    "editor.smoothScrolling": true,
+    "editor.multiCursorModifier": "alt",
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": true,
+        "strings": true
+    },
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorStyle": "line-thin"
 }
