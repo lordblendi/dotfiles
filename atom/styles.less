@@ -128,8 +128,15 @@ span {
         }
     }
 }
-// orange color for {} [] :
 
+//  always show foldable cursor lines
+atom-text-editor .line-number.foldable {
+  .icon-right {
+    visibility: visible;
+  }
+}
+
+// orange color for {} [] :
 span.meta.tag.block.close.htmlbars {
     cursor: text;
     font-size: inherit;

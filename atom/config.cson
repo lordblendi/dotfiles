@@ -60,6 +60,7 @@
   editor:
     autoIndentOnPaste: false
     backUpBeforeSaving: true
+    fontSize: 12
     showIndentGuide: true
     showInvisibles: true
     softWrap: true
@@ -96,7 +97,6 @@
   "tree-view":
     focusOnReveal: false
     hideIgnoredNames: true
-    hideVcsIgnoredFiles: true
   welcome:
     showOnStartup: false
   wordcount:
