@@ -9,6 +9,7 @@ alias n='nano'
 alias c='cat'
 alias le='less'
 alias ti='tig'
+alias co='code'
 
 # git
 alias g='git'
@@ -28,10 +29,10 @@ alias gr='git rebase'
 alias gk='gitk --all'
 
 # git stash
-alias gstl='git stash list'
 alias gst='git stash'
 alias gsta='git stash apply'
 alias gstd='git stash drop'
+alias gstl='git stash list'
 alias gstp='git stash pop'
 
 # ember

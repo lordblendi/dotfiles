@@ -7,25 +7,15 @@
     "html.format.indentHandlebars": true,
     "html.format.indentInnerHtml": true,
     "html.format.endWithNewline": true,
-    "html.format.extraLiners": "head, body, /html, div",
+    "html.format.extraLiners": "head, body, /html",
     "dateTime.customFormat": "YYYY. MMM. DD., dddd, HH:MM:ss",
     "workbench.startupEditor": "newUntitledFile",
     "editor.minimap.enabled": false,
-    "beautify.tabSize": 2,
-    "beautify.options": {
-        "indent_size": 1,
-        "indent_with_tabs": false,
-        "css": {
-            "indent_size": 1
-        },
-        "scss": {
-            "indent_size": 1
-        }
-    },
     "search.exclude": {
         "**/node_modules": true,
         "**/bower_components": true,
         "**/tmp": true,
+        "**/tests": true,
         "**/dist": true
     },
     "workbench.colorCustomizations": {
@@ -42,5 +32,14 @@
         "strings": true
     },
     "editor.cursorBlinking": "smooth",
-    "editor.cursorStyle": "line-thin"
+    "editor.cursorStyle": "line-thin",
+    "window.zoomLevel": 0,
+    "editor.matchBrackets": false,
+    "subtleBrackets.bracketPairs": [
+        "{}",
+        "[]",
+        "<>",
+        "()"
+    ],
+    "extensions.ignoreRecommendations": true
 }

@@ -9,22 +9,7 @@
       "enabled": true,
       "focusMode": true,
       "customURL": false,
-      "id": "75821f4f-2fb3-e797-c242-bb2af8550131",
-      "mute_audio": false,
-      "name": "",
-      "order": 1,
-      "service": "skype"
-    },
-    {
-      "notifications": true,
-      "count_message_direct": 0,
-      "count_message_indirect": 0,
-      "zoom": 0,
-      "showIndirectMessages": true,
-      "enabled": true,
-      "focusMode": true,
-      "customURL": false,
-      "custom_icon": "https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2016-01-13/18387782098_877d1a6fc4f2c820e555_88.png",
+      "custom_icon": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-01-13/18387782098_877d1a6fc4f2c820e555_88.png",
       "id": "e403f9e9-1076-9c43-a903-8aabd8a53ef0",
       "mute_audio": false,
       "name": "",
@@ -41,7 +26,22 @@
       "enabled": true,
       "focusMode": true,
       "customURL": false,
-      "custom_icon": "https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2016-08-08/67127715942_d2157161757d4d16ca6f_88.png",
+      "id": "75821f4f-2fb3-e797-c242-bb2af8550131",
+      "mute_audio": false,
+      "name": "",
+      "order": 1,
+      "service": "skype"
+    },
+    {
+      "notifications": true,
+      "count_message_direct": 0,
+      "count_message_indirect": 0,
+      "zoom": 0,
+      "showIndirectMessages": true,
+      "enabled": true,
+      "focusMode": true,
+      "customURL": false,
+      "custom_icon": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-08-08/67127715942_d2157161757d4d16ca6f_88.png",
       "id": "ee42a00b-86da-0b5a-b05f-80bc707c2328",
       "mute_audio": false,
       "name": "",
@@ -94,7 +94,7 @@
       "mute_audio": true,
       "customURL": false,
       "team": "embercommunity",
-      "custom_icon": "https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-03-26/4207606557_6211decb4c88966c84cd_88.jpg"
+      "custom_icon": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2015-03-26/4207606557_6211decb4c88966c84cd_88.jpg"
     }
   ]
 }
