@@ -4,7 +4,9 @@
     "locale": "en_GB",
     "runInBackground": true,
     "globalMute": false,
-    "usage": {},
+    "usage": {
+      "personal": "true"
+    },
     "appVisibleOnTaskbar": true,
     "email": "lordblendi@gmail.com",
     "newsletter": false,

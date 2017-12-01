@@ -60,7 +60,6 @@
   editor:
     autoIndentOnPaste: false
     backUpBeforeSaving: true
-    fontSize: 13
     showIndentGuide: true
     showInvisibles: true
     softWrap: true
