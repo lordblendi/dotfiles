@@ -49,7 +49,8 @@ alias dr='docker'
 alias drc='docker-compose'
 alias dr-rmi-none='dr rmi -f (dr images | grep "^<none>" | awk \'{print $3}\')'
 alias dr-rm-volumes-dangling='eval \'docker volume rm (docker volume ls -f dangling=true -q)\' '
-alias dr-rebuild-restart='drc kill $1; drc rm -f $1; drc build $1; drc up -d $1'
+alias drc-rebuild-restart-container='drc kill $argv; drc rm -f $argv; drc build $argv; drc up -d $argv'
+alias drc-restart-container='drc kill $argv; drc rm -f $argv; drc up -d $argv'
 test -s /home/nora/.nvm-fish/nvm.fish; and source /home/nora/.nvm-fish/nvm.fish
 
 

@@ -47,12 +47,11 @@
       "language-sql"
       "symbols-view"
     ]
-    excludeVcsIgnoredPaths: false
-    followSymlinks: false
     ignoredNames: [
       "node_modules"
-      "tmp"
       "bower_components"
+      "_site"
+      "tmp"
       "tests"
       "dist"
       ".git"
@@ -88,8 +87,12 @@
   "fuzzy-finder":
     ignoredNames: [
       "node_modules"
+      "node_modules/"
       "tmp"
       "bower_components"
+      "bower_components/"
+      "_site"
+      "_site/"
       "tests"
       "dist"
     ]
