@@ -14,7 +14,6 @@
       "file-icon-supplement"
       "bookmarks"
       "deprecation-cop"
-      "image-view"
       "keybinding-resolver"
       "welcome"
       "update-package-dependencies"
@@ -37,6 +36,16 @@
       "command-palette"
       "exception-reporting"
       "styleguide"
+      "autocomplete-atom-api"
+      "archive-view"
+      "background-tips"
+      "github"
+      "image-view"
+      "language-c"
+      "language-git"
+      "language-less"
+      "language-sql"
+      "symbols-view"
     ]
     excludeVcsIgnoredPaths: false
     followSymlinks: false
@@ -54,15 +63,17 @@
     ]
     projectHome: "/home/nora/Projects"
     themes: [
-      "one-dark-ui"
-      "atom-dark-syntax"
+      "one-light-ui"
+      "one-light-syntax"
     ]
   editor:
     autoIndentOnPaste: false
     backUpBeforeSaving: true
+    invisibles: {}
     showIndentGuide: true
     showInvisibles: true
     softWrap: true
+    tabType: "soft"
     useShadowDOM: false
   "ember-tabs":
     overrideUsePods: true
@@ -90,6 +101,8 @@
     _analyticsUserId: "0a37a152-0139-451a-8fd9-e0acc8dd86ec"
   "ruby-block":
     highlightLineNumber: true
+  "status-bar-blame":
+    dateFormat: "YYYY-MM-DD HH:mm"
   tabs:
     addNewTabsAtEnd: true
     enableVcsColoring: true
@@ -109,6 +122,11 @@
 ".html.htmlbars.internal.subexp.text":
   editor:
     softWrap: true
+".html.liquid.text":
+  editor:
+    autoIndent: false
+    showIndentGuide: false
+    showInvisibles: false
 ".js.source":
   editor:
     autoIndentOnPaste: false
