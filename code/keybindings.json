@@ -116,5 +116,10 @@
     {
         "key": "ctrl+k ctrl+left",
         "command": "-workbench.action.focusPreviousGroup"
+    },
+    {
+        "key": "ctrl+p h",
+        "command": "-handlebarsPreview.preview",
+        "when": "!terminalFocus"
     }
 ]

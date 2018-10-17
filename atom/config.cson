@@ -29,7 +29,6 @@
       "language-property-list"
       "language-toml"
       "language-perl"
-      "language-php"
       "language-ruby-on-rails"
       "about"
       "autoflow"
@@ -50,24 +49,27 @@
     ignoredNames: [
       "node_modules"
       "bower_components"
-      "_site"
       "tmp"
-      "tests"
-      "dist"
       ".git"
+      "_site"
+      "dist"
     ]
     packagesWithKeymapsDisabled: [
       "preview"
       "image-view"
     ]
     projectHome: "/home/nora/Projects"
+    telemetryConsent: "no"
     themes: [
       "one-light-ui"
       "one-light-syntax"
     ]
+  "double-tag":
+    allowEndTagSync: true
   editor:
     autoIndentOnPaste: false
     backUpBeforeSaving: true
+    fontSize: 19
     invisibles: {}
     showIndentGuide: true
     showInvisibles: true
@@ -93,10 +95,11 @@
       "bower_components/"
       "_site"
       "_site/"
-      "tests"
       "dist"
     ]
   "git-diff": {}
+  "line-ending-selector":
+    defaultLineEnding: "LF"
   "markdown-preview": {}
   "package-generator":
     packageSyntax: "coffeescript"
@@ -114,6 +117,8 @@
     hideIgnoredNames: true
   welcome:
     showOnStartup: false
+  whitespace:
+    ignoreWhitespaceOnCurrentLine: false
   wordcount:
     alwaysOn: true
 ".coffee.source":

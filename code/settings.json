@@ -1,9 +1,8 @@
 {
-    "workbench.colorTheme": "Red",
-    "editor.tabSize": 2,
+    "editor.tabSize": 1,
     "files.autoSave": "onFocusChange",
     "editor.wordWrap": "on",
-    "files.insertFinalNewline": true,
+    "files.insertFinalNewline": false,
     "html.format.indentHandlebars": true,
     "html.format.indentInnerHtml": true,
     "html.format.endWithNewline": true,
@@ -16,16 +15,16 @@
         "**/bower_components": true,
         "**/tmp": true,
         "**/tests": true,
-        "**/dist": true
+        "**/dist": true,
+        "**/_site": true
     },
     "workbench.colorCustomizations": {
-        "editorCursor.foreground": "#FFFF00",
-        "editorLineNumber.foreground": "#dddd00",
-        "editor.selectionBackground": "#d05b0a"
+        "editorCursor.foreground": "#ff0000",
+        "editorLineNumber.foreground": "#000000",
+        "editor.selectionBackground": "#df864677"
     },
-    "workbench.iconTheme": "vscode-icons",
     "editor.smoothScrolling": true,
-    "editor.multiCursorModifier": "alt",
+    "editor.multiCursorModifier": "ctrlCmd",
     "editor.quickSuggestions": {
         "other": true,
         "comments": true,
@@ -41,5 +40,16 @@
         "<>",
         "()"
     ],
-    "extensions.ignoreRecommendations": true
+    "extensions.ignoreRecommendations": true,
+    "workbench.colorTheme": "Atom One Light",
+    "editor.renderWhitespace": "all",
+    "editor.insertSpaces": true,
+    "breadcrumbs.enabled": true,
+    "files.associations": {
+        "*.html": "jekyll",
+        "*.hbs": "html"
+    },
+    "python.jediEnabled": false,
+    "workbench.statusBar.feedback.visible": false,
+    "currentFilePath.defaultPathStartsFrom": "workSpace"
 }
