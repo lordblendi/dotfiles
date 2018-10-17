@@ -49,6 +49,13 @@ alias dr='docker'
 alias drc='docker-compose'
 alias dr-rmi-none='dr rmi -f (dr images | grep "^<none>" | awk \'{print $3}\')'
 alias dr-rm-volumes-dangling='eval \'docker volume rm (docker volume ls -f dangling=true -q)\' '
+
+alias dr-rm-dangling-images='eval \'docker rmi (docker images -q -f dangling=true)\' '
+alias dr-rm-exited-images='eval \'docker rm (docker ps -qa --filter "status=exited")\' '
+alias dr-rm-created-images='eval \'docker rm (docker ps -qa --filter "status=created")\' '
+
+alias dr-clean='dr-rmi-none; dr-rm-exited-images; dr-rm-created-images; dr-rm-dangling-images; dr-rm-volumes-dangling'
+
 alias drc-rebuild-restart-container='drc kill $argv; drc rm -f $argv; drc build $argv; drc up -d $argv'
 alias drc-restart-container='drc kill $argv; drc rm -f $argv; drc up -d $argv'
 test -s /home/nora/.nvm-fish/nvm.fish; and source /home/nora/.nvm-fish/nvm.fish
