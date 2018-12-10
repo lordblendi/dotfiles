@@ -69,7 +69,7 @@
   editor:
     autoIndentOnPaste: false
     backUpBeforeSaving: true
-    fontSize: 19
+    fontSize: 16
     invisibles: {}
     showIndentGuide: true
     showInvisibles: true
@@ -138,9 +138,13 @@
 ".js.source":
   editor:
     autoIndentOnPaste: false
+".python.regexp.source":
+  editor:
+    tabLength: 2
 ".python.source":
   editor:
     autoIndentOnPaste: false
+    tabLength: 2
 ".python.text.traceback":
   editor:
     autoIndentOnPaste: false
