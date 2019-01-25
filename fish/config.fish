@@ -58,8 +58,5 @@ alias dr-clean='dr-rmi-none; dr-rm-exited-images; dr-rm-created-images; dr-rm-da
 
 alias drc-rebuild-restart-container='drc kill $argv; drc rm -f $argv; drc build $argv; drc up -d $argv'
 alias drc-restart-container='drc kill $argv; drc rm -f $argv; drc up -d $argv'
-test -s /home/nora/.nvm-fish/nvm.fish; and source /home/nora/.nvm-fish/nvm.fish
 alias dr-stat='docker stats (docker ps --format="{{.Names}}")'
 
-#GO
-set -x GOPATH $HOME/Projects
