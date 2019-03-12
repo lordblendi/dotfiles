@@ -33,7 +33,6 @@
       "about"
       "autoflow"
       "command-palette"
-      "exception-reporting"
       "styleguide"
       "autocomplete-atom-api"
       "archive-view"
@@ -43,7 +42,6 @@
       "language-c"
       "language-git"
       "language-less"
-      "language-sql"
       "symbols-view"
     ]
     ignoredNames: [
@@ -69,7 +67,7 @@
   editor:
     autoIndentOnPaste: false
     backUpBeforeSaving: true
-    fontSize: 16
+    fontSize: 15
     invisibles: {}
     showIndentGuide: true
     showInvisibles: true
