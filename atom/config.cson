@@ -43,6 +43,7 @@
       "language-git"
       "language-less"
       "symbols-view"
+      "language-coffee-script"
     ]
     ignoredNames: [
       "node_modules"
