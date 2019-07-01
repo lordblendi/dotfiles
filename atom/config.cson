@@ -68,7 +68,7 @@
   editor:
     autoIndentOnPaste: false
     backUpBeforeSaving: true
-    fontSize: 15
+    fontSize: 17
     invisibles: {}
     showIndentGuide: true
     showInvisibles: true
@@ -78,7 +78,7 @@
   "ember-tabs":
     overrideUsePods: true
   "exception-reporting":
-    userId: "b5a0e3c3-61c1-0597-cbc7-fb0b18c9e16f"
+    userId: "aa375cb5-935e-4a3d-b2f7-990c23f201b3"
   "file-icon-supplement":
     treeViewIcons: false
   "file-icons":

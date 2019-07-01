@@ -4,11 +4,11 @@ dir=~/dotfiles/.                       # dotfiles directory
 dir_backup=~/dotfiles_old             # old dotfiles backup directory
 
 
-# for copying files: 
-# cp -r -u 
-# -r: copy directories recursively 
-# -u: copy only when the SOURCE file is newer than 
-#     the destination file 
+# for copying files:
+# cp -r -u
+# -r: copy directories recursively
+# -u: copy only when the SOURCE file is newer than
+#     the destination file
 #     or when the destination file is missing
 
 
@@ -23,7 +23,7 @@ function new_dir {
   mkdir -p $1
 }
 
-# creates symlinks for files that are listed in the files_to_coy/ [parameter one].txt 
+# creates symlinks for files that are listed in the files_to_coy/ [parameter one].txt
 # if there is a second parameter:
 #    create the symlinks from that folder under ~/
 function symlink {
@@ -75,10 +75,3 @@ symlink fish .config/fish
 
 echo "Saving Visual Code settings"
 symlink code .config/Code/User
-
-###
-# Visual Code settings
-###
-
-echo "Saving Visual Code settings"
-symlink franz .config/Franz/settings

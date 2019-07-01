@@ -1,3 +1,2 @@
 keybindings.json
 settings.json
-vsicons.settings.json

@@ -1,55 +1,18 @@
 {
-    "editor.tabSize": 1,
     "files.autoSave": "onFocusChange",
+    "editor.tabSize": 2,
+    "editor.renderWhitespace": "boundary",
     "editor.wordWrap": "on",
-    "files.insertFinalNewline": false,
-    "html.format.indentHandlebars": true,
-    "html.format.indentInnerHtml": true,
-    "html.format.endWithNewline": true,
-    "html.format.extraLiners": "head, body, /html",
-    "dateTime.customFormat": "YYYY. MMM. DD., dddd, HH:MM:ss",
-    "workbench.startupEditor": "newUntitledFile",
+    "files.exclude": {
+        "**/node_modules": true
+    },
+    "editor.minimap.renderCharacters": false,
     "editor.minimap.enabled": false,
-    "search.exclude": {
-        "**/node_modules": true,
-        "**/bower_components": true,
-        "**/tmp": true,
-        "**/tests": true,
-        "**/dist": true,
-        "**/_site": true
-    },
-    "workbench.colorCustomizations": {
-        "editorCursor.foreground": "#ff0000",
-        "editorLineNumber.foreground": "#000000",
-        "editor.selectionBackground": "#df864677"
-    },
-    "editor.smoothScrolling": true,
-    "editor.multiCursorModifier": "ctrlCmd",
-    "editor.quickSuggestions": {
-        "other": true,
-        "comments": true,
-        "strings": true
-    },
-    "editor.cursorBlinking": "smooth",
-    "editor.cursorStyle": "line-thin",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "workbench.tree.indent": 24,
+    "files.trimTrailingWhitespace": true,
     "window.zoomLevel": 0,
-    "editor.matchBrackets": false,
-    "subtleBrackets.bracketPairs": [
-        "{}",
-        "[]",
-        "<>",
-        "()"
-    ],
-    "extensions.ignoreRecommendations": true,
-    "workbench.colorTheme": "Atom One Light",
-    "editor.renderWhitespace": "all",
-    "editor.insertSpaces": true,
-    "breadcrumbs.enabled": true,
-    "files.associations": {
-        "*.html": "jekyll",
-        "*.hbs": "html"
-    },
-    "python.jediEnabled": false,
     "workbench.statusBar.feedback.visible": false,
-    "currentFilePath.defaultPathStartsFrom": "workSpace"
+    "workbench.colorTheme": "Default Light+",
+    "editor.multiCursorModifier": "ctrlCmd"
 }

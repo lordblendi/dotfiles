@@ -34,6 +34,7 @@ alias gsta='git stash apply'
 alias gstd='git stash drop'
 alias gstl='git stash list'
 alias gstp='git stash pop'
+alias gpr-o='git remote prune origin'
 
 # ember
 alias e='ember'
@@ -59,4 +60,3 @@ alias dr-clean='dr-rmi-none; dr-rm-exited-images; dr-rm-created-images; dr-rm-da
 alias drc-rebuild-restart-container='drc kill $argv; drc rm -f $argv; drc build $argv; drc up -d $argv'
 alias drc-restart-container='drc kill $argv; drc rm -f $argv; drc up -d $argv'
 alias dr-stat='docker stats (docker ps --format="{{.Names}}")'
-

@@ -1,4 +1,3 @@
-.gitignore
 config.cson
 init.coffee
 keymap.cson
