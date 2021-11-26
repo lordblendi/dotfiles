@@ -1,18 +1,36 @@
 {
     "files.autoSave": "onFocusChange",
-    "editor.tabSize": 2,
     "editor.renderWhitespace": "boundary",
     "editor.wordWrap": "on",
     "files.exclude": {
-        "**/node_modules": true
+      "**/_site": true,
+      "**/.jekyll-cache": true,
+      "**/node_modules": true,
+      "**/vendor": true
     },
-    "editor.minimap.renderCharacters": false,
     "editor.minimap.enabled": false,
     "typescript.updateImportsOnFileMove.enabled": "always",
     "workbench.tree.indent": 24,
     "files.trimTrailingWhitespace": true,
-    "window.zoomLevel": 0,
     "workbench.statusBar.feedback.visible": false,
     "workbench.colorTheme": "Default Light+",
-    "editor.multiCursorModifier": "ctrlCmd"
+    "editor.multiCursorModifier": "ctrlCmd",
+    "tslint.packageManager": "yarn",
+    "liquid.format": true,
+    "[javascript]": {
+
+  },
+  "workbench.startupEditor": "newUntitledFile",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "search.exclude": {
+    "*.eot": true,
+    "*.svg": true,
+    "*.ttf": true,
+    "*.woff": true,
+    "**/dist": true,
+    "**/fonts": true
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.renderControlCharacters": true,
+  "editor.guides.bracketPairs": "active"
 }
