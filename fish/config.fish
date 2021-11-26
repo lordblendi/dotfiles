@@ -1,8 +1,11 @@
+#theme
+theme_gruvbox dark
+
 # basic
 alias cd..='cd ..'
 alias b='bash '
 alias lsal='ls -alh'
-alias l='ls -alh'
+alias l='ls -alh --color=never'
 alias t='tmux'
 alias a='atom'
 alias n='nano'
