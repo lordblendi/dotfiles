@@ -1,6 +1,6 @@
 function cleanrobinson
     set initialLocation = $PWD
-    set root '/mnt/c/git/robinson/Projects/Robinson/'
+    set root '/mnt/c/projects/robinson/Projects/Robinson/'
     set -l projects
     set -a projects 'BUL' 'BULTest'
     set -a projects 'ConnectApi'
