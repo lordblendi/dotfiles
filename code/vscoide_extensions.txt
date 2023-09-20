@@ -1,0 +1,26 @@
+to list them: PS C:\Users\nora.szepes> code --list-extensions | % { "code --install-extension $_" }
+
+code --install-extension amatiasq.sort-imports
+code --install-extension austenc.tailwind-docs
+code --install-extension bradlc.vscode-tailwindcss
+code --install-extension ChakrounAnas.turbo-console-log
+code --install-extension dbaeumer.vscode-eslint
+code --install-extension dsznajder.es7-react-js-snippets
+code --install-extension eliostruyf.vscode-front-matter
+code --install-extension ginfuru.ginfuru-vscode-jekyll-syntax
+code --install-extension ginfuru.vscode-jekyll-snippets
+code --install-extension hbenl.vscode-test-explorer
+code --install-extension Ionic.ionic
+code --install-extension kavod-io.vscode-jest-test-adapter
+code --install-extension killalau.vscode-liquid-snippets
+code --install-extension ms-azuretools.vscode-docker
+code --install-extension ms-python.python
+code --install-extension ms-python.vscode-pylance
+code --install-extension ms-vscode-remote.remote-containers
+code --install-extension ms-vscode-remote.remote-wsl
+code --install-extension ms-vscode.test-adapter-converter
+code --install-extension neilding.language-liquid
+code --install-extension shd101wyy.markdown-preview-enhanced
+code --install-extension sissel.shopify-liquid
+code --install-extension Tyriar.sort-lines
+code --install-extension waderyan.gitblame
