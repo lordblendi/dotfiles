@@ -1,0 +1,16 @@
+[
+    {
+        "caption": "Make empty commit",
+        "command": "git",
+        "args": {
+            "argv": ["commit", "--allow-empty", "-m", "an empty commit"]
+        }
+    },
+	    {
+        "caption": "Prune tags",
+        "command": "git",
+        "args": {
+            "argv": ["fetch", "--prune", "--prune-tags"]
+        }
+    }
+]

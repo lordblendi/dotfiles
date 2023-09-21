@@ -1,0 +1,9 @@
+[
+    {
+        "caption": "Make empty commit",
+        "command": "git",
+        "args": {
+            "argv": ["commit", "--allow-empty", "-m", "an empty commit"]
+        }
+    }
+]
