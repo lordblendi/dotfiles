@@ -1,7 +1,18 @@
 {
-  "files.autoSave": "onFocusChange",
+  "css.validate": false,
+  "editor.accessibilitySupport": "off",
+  "editor.guides.bracketPairs": "active",
+  "editor.inlineSuggest.enabled": true,
+  "editor.minimap.enabled": false,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "editor.renderControlCharacters": true,
   "editor.renderWhitespace": "boundary",
   "editor.wordWrap": "on",
+
+  "files.autoSave": "onFocusChange",
   "files.exclude": {
     "**/_site": true,
     "**/.jekyll-cache": true,
@@ -9,36 +20,23 @@
     "**/tmp": true,
     "**/vendor": true
   },
-  "editor.minimap.enabled": false,
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "workbench.tree.indent": 24,
   "files.trimTrailingWhitespace": true,
-  "workbench.statusBar.feedback.visible": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "js/ts.implicitProjectConfig.module": "NodeNext",
+  "git.openRepositoryInParentFolders": "never",
+  "search.exclude": {
+    "*.eot": true,
+    "*.svg": true,
+    "*.ttf": true,
+    "*.woff": true,
+    "**/dist": true,
+    "**/fonts": true
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "tailwindCSS.experimental.configFile": null,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "window.zoomLevel": 1,
   "workbench.colorTheme": "Default Light+",
-  "editor.multiCursorModifier": "ctrlCmd",
-  "tslint.packageManager": "yarn",
-  "liquid.format": true,
-  "[javascript]": {
-
-},
-"workbench.startupEditor": "newUntitledFile",
-"javascript.updateImportsOnFileMove.enabled": "always",
-"search.exclude": {
-  "*.eot": true,
-  "*.svg": true,
-  "*.ttf": true,
-  "*.woff": true,
-  "**/dist": true,
-  "**/fonts": true
-},
-"security.workspace.trust.untrustedFiles": "open",
-"editor.renderControlCharacters": true,
-"editor.guides.bracketPairs": "active",
-"tailwindCSS.experimental.configFile": null,
-"sort-imports.on-save": false,
-"js/ts.implicitProjectConfig.module": "NodeNext",
-"git.openRepositoryInParentFolders": "never",
-"security.allowedUNCHosts": [
-  "inf-fs02.tenforce.com"
-]
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.tree.indent": 24,
 }
