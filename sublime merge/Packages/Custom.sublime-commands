@@ -12,5 +12,12 @@
         "args": {
             "argv": ["fetch", "--prune", "--prune-tags"]
         }
+    },
+	    {
+        "caption": "Remove cached files",
+        "command": "git",
+        "args": {
+            "argv": ["rm", "-r", "--cached", "."]
+        }
     }
 ]
