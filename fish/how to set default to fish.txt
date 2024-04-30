@@ -1,0 +1,8 @@
+You can set fish as your default shell by running
+
+chsh -s $(which fish)
+To do so for another user, just add the username at the end of the command, and use sudo.
+
+Then log out and back in.
+
+(To set it back to bash, you need to use Fish syntax of course, like this chsh -s (which bash))
