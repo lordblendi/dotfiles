@@ -5,3 +5,4 @@ alias cd..='cd ..'
 # 1Password ssh:
 alias ssh='ssh.exe'
 alias ssh-add='ssh-add.exe'
+alias op='op.exe'
