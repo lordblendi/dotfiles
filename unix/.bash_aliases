@@ -1,7 +1,4 @@
 alias g='git'
 alias lsal='ls -alh'
-alias e='ember'
-alias eg='ember generate'
-alias es='ember serve'
-alias ed='ember destroy'
+alias l='ls -alh'
 alias cd..='cd ..'
