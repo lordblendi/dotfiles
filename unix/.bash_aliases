@@ -1,4 +1,5 @@
 alias g='git'
+alias t='tmux'
 alias lsal='ls -alh'
 alias l='ls -alh'
 alias cd..='cd ..'
