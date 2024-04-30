@@ -1,17 +1,13 @@
-#theme
-theme_gruvbox dark
-
 # basic
 alias cd..='cd ..'
 alias b='bash '
 alias lsal='ls -alh'
 alias l='ls -alh --color=never'
+alias l='ls -alh'
 alias t='tmux'
-alias a='atom'
 alias n='nano'
 alias c='cat'
 alias le='less'
-alias ti='tig'
 alias co='code'
 
 # git
@@ -38,15 +34,6 @@ alias gstd='git stash drop'
 alias gstl='git stash list'
 alias gstp='git stash pop'
 alias gpr-o='git remote prune origin'
-
-# ember
-alias e='ember'
-alias eg='ember generate'
-alias es='ember serve'
-alias ed='ember destroy'
-alias ei='ember install'
-alias eb='ember build'
-alias ebp='ember build --prod'
 
 # dockers
 alias dr='docker'
