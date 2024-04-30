@@ -1,0 +1,2 @@
+config location: .config/fish/
+function locations: .config/fish/functions/
