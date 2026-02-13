@@ -19,5 +19,19 @@
         "args": {
             "argv": ["rm", "-r", "--cached", "."]
         }
+    },
+	    {
+        "caption": "Submodule init",
+        "command": "git",
+        "args": {
+            "argv": ["submodule", "init"]
+        }
+    },
+	    {
+        "caption": "Submodule update",
+        "command": "git",
+        "args": {
+            "argv": ["submodule", "update"]
+        }
     }
 ]
