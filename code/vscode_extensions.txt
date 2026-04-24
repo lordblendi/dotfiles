@@ -1,22 +1,38 @@
-to list them: PS C:\Users\nora.szepes> code --list-extensions | % { "code --install-extension $_" }
+to list them in PS
+
+code --list-extensions | % { "code --install-extension $_" }
+
+
+result 2026/04/24:
 
 code --install-extension austenc.tailwind-docs
 code --install-extension bradlc.vscode-tailwindcss
 code --install-extension dbaeumer.vscode-eslint
+code --install-extension docker.docker
 code --install-extension dsznajder.es7-react-js-snippets
 code --install-extension ginfuru.ginfuru-vscode-jekyll-syntax
-code --install-extension ginfuru.vscode-jekyll-snippets
+code --install-extension github.copilot-chat
 code --install-extension hbenl.vscode-test-explorer
-code --install-extension kavod-io.vscode-jest-test-adapter
-code --install-extension killalau.vscode-liquid-snippets
+code --install-extension macieklad.tailwind-sass-syntax
+code --install-extension ms-azuretools.vscode-containers
 code --install-extension ms-azuretools.vscode-docker
+code --install-extension ms-python.debugpy
+code --install-extension ms-python.isort
 code --install-extension ms-python.python
 code --install-extension ms-python.vscode-pylance
+code --install-extension ms-python.vscode-python-envs
 code --install-extension ms-vscode-remote.remote-containers
 code --install-extension ms-vscode-remote.remote-wsl
+code --install-extension ms-vscode.powershell
 code --install-extension ms-vscode.test-adapter-converter
+code --install-extension muhajirdev.tailwind-styled-snippets
+code --install-extension muhajirframe.tailwind-styled-snippets
 code --install-extension neilding.language-liquid
+code --install-extension rodrigovallades.es7-react-js-snippets
+code --install-extension runem.lit-plugin
 code --install-extension shd101wyy.markdown-preview-enhanced
+code --install-extension sidharthachatterjee.vscode-tailwindcss
 code --install-extension sissel.shopify-liquid
-code --install-extension Tyriar.sort-lines
+code --install-extension tshamz.liquid-snippet-include-detection
+code --install-extension tyriar.sort-lines
 code --install-extension waderyan.gitblame
