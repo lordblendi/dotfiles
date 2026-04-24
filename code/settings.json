@@ -17,6 +17,8 @@
     "**/_site": true,
     "**/.jekyll-cache": true,
     "**/node_modules": true,
+    "**/ShadowCopy": true,
+    "**/ShadowCopyApi": true,
     "**/tmp": true,
     "**/vendor": true
   },
@@ -36,7 +38,9 @@
   "tailwindCSS.experimental.configFile": null,
   "typescript.updateImportsOnFileMove.enabled": "always",
   "window.zoomLevel": 1,
-  "workbench.colorTheme": "Default Light+",
+  "workbench.colorTheme": "Light+",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.tree.indent": 24,
+  "extensions.ignoreRecommendations": true,
+  "explorer.autoReveal": false,
 }
