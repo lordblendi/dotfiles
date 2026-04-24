@@ -1,5 +1,8 @@
 {
-	"themed_title_bar": false,
+	"expand_untracked_files_by_default": false,
+	"hide_menu": false,
+	"always_show_command_status": true,
 	"time_format": "24h",
-	"ignore_diff_white_space": true,
+	"ignore_diff_white_space": false,
+	"font_size": 11,
 }
